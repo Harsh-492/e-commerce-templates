@@ -140,8 +140,8 @@
 											<div class="dropdown-menu dropdown-menu-end">
 												<a href="javascript:;">
 													<div class="cart-header">
-														<p class="cart-header-title mb-0">8 ITEMS</p>
-														<p class="cart-header-clear ms-auto mb-0">VIEW CART</p>
+														<p class="cart-header-title mb-0">USERS</p>
+														<p class="cart-header-clear ms-auto mb-0">CUSTOMER</p>
 													</div>
 												</a>
 												<div class="cart-list">
@@ -300,21 +300,21 @@
 										<div class="col-md-4">
 											<h6 class="large-menu-title">Fashion</h6>
 											<ul class="">
-												<li><a href="#">Casual T-Shirts</a>
+												<li><a href="shop-list-filter-on-top.html">Casual T-Shirts</a>
 												</li>
-												<li><a href="#">Formal Shirts</a>
+												<li><a href="shop-list-filter-on-top.html">Formal Shirts</a>
 												</li>
-												<li><a href="#">Jackets</a>
+												<li><a href="shop-list-filter-on-top.html">Jackets</a>
 												</li>
-												<li><a href="#">Jeans</a>
+												<li><a href="shop-list-filter-on-top.html">Jeans</a>
 												</li>
-												<li><a href="#">Dresses</a>
+												<li><a href="shop-list-filter-on-top.html">Dresses</a>
 												</li>
-												<li><a href="#">Sneakers</a>
+												<li><a href="shop-list-filter-on-top.html">Sneakers</a>
 												</li>
-												<li><a href="#">Belts</a>
+												<li><a href="shop-list-filter-on-top.html">Belts</a>
 												</li>
-												<li><a href="#">Sports Shoes</a>
+												<li><a href="shop-list-filter-on-top.html">Sports Shoes</a>
 												</li>
 											</ul>
 										</div>
@@ -322,21 +322,21 @@
 										<div class="col-md-4">
 											<h6 class="large-menu-title">Electronics</h6>
 											<ul class="">
-												<li><a href="#">Mobiles</a>
+												<li><a href="shop-list-filter-on-top.html">Mobiles</a>
 												</li>
-												<li><a href="#">Laptops</a>
+												<li><a href="#shop-list-filter-on-top.html">Laptops</a>
 												</li>
-												<li><a href="#">Macbook</a>
+												<li><a href="shop-list-filter-on-top.html">Macbook</a>
 												</li>
-												<li><a href="#">Televisions</a>
+												<li><a href="shop-list-filter-on-top.html">Televisions</a>
 												</li>
-												<li><a href="#">Lighting</a>
+												<li><a href="shop-list-filter-on-top.html">Lighting</a>
 												</li>
-												<li><a href="#">Smart Watch</a>
+												<li><a href="shop-list-filter-on-top.html">Smart Watch</a>
 												</li>
-												<li><a href="#">Galaxy Phones</a>
+												<li><a href="shop-list-filter-on-top.html">Galaxy Phones</a>
 												</li>
-												<li><a href="#">PC Monitors</a>
+												<li><a href="shop-list-filter-on-top.html">PC Monitors</a>
 												</li>
 											</ul>
 										</div>
@@ -368,8 +368,8 @@
 									</li>
 									<li><a class="dropdown-item" href="account-orders.html">Orders</a>
 									</li>
-									<li><a class="dropdown-item" href="account-payment-methods.html">Payment Methods</a>
-									</li>
+									<!-- <li><a class="dropdown-item" href="account-payment-methods.html">Payment Methods</a>
+									</li> -->
 									<li><a class="dropdown-item" href="account-user-details.html">User Details</a>
 									</li>
 									<li><a class="dropdown-item" href="authentication-signin.html">Sign In</a>
@@ -423,7 +423,7 @@
 													<a href="account-orders.html" class="list-group-item active d-flex justify-content-between align-items-center">Orders <i class='bx bx-cart-alt fs-5'></i></a>
 													<a href="account-downloads.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Downloads <i class='bx bx-download fs-5'></i></a>
 													<a href="account-addresses.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Addresses <i class='bx bx-home-smile fs-5'></i></a>
-													<a href="account-payment-methods.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Payment Methods <i class='bx bx-credit-card fs-5'></i></a>
+													<!-- <a href="account-payment-methods.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Payment Methods <i class='bx bx-credit-card fs-5'></i></a> -->
 													<a href="account-user-details.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Account Details <i class='bx bx-user-circle fs-5'></i></a>
 													<a href="#" class="list-group-item d-flex justify-content-between align-items-center bg-transparent">Logout <i class='bx bx-log-out fs-5'></i></a>
 												</div>
@@ -453,7 +453,9 @@
 																</td>
 																<td>$100.00 for 1 item</td>
 																<td>
-																	<div class="d-flex gap-2">	<a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">  
+																	<a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
+																	<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -465,8 +467,9 @@
 																</td>
 																<td>$100.00 for 1 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">   <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
 																		<a href="checkout-payment.html" class="btn btn-light btn-sm rounded-0">Pay</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -478,9 +481,10 @@
 																</td>
 																<td>$100.00 for 1 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
-																		<a href="checkout-payment.html" class="btn btn-light btn-sm rounded-0">Pay</a>
+																	<div class="d-flex gap-2">   <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
+																		
 																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Cancel</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -492,8 +496,9 @@
 																</td>
 																<td>$120.00 for 1 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">   <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
 																		<a href="checkout-payment.html" class="btn btn-light btn-sm rounded-0">Pay</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -505,7 +510,8 @@
 																</td>
 																<td>$224.00 for 2 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">  <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -517,7 +523,8 @@
 																</td>
 																<td>$126.00 for 3 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">   <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -529,9 +536,10 @@
 																</td>
 																<td>$200.00 for 2 item</td>
 																<td>
-																	<div class="d-flex gap-2"> <a href="javascript:;" class="btn btn-light btn-sm rounded-0">View</a>
+																	<div class="d-flex gap-2">   <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
 																		<a href="checkout-payment.html" class="btn btn-light btn-sm rounded-0">Pay</a>
 																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Cancel</a>
+																		<a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
 																	</div>
 																</td>
 															</tr>
@@ -678,6 +686,89 @@
 			</section>
 		</footer>
 		<!--end footer section-->
+		<div class="modal fade" id="QuickViewProduct">
+			<div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-xl-down">
+				<div class="modal-content bg-dark-4 rounded-0 border-0">
+					<div class="modal-body">
+						<button type="button" class="btn-close float-end" data-bs-dismiss="modal"></button>
+						<div class="row g-0">
+							<div class="col-lg-6">
+								<div class="card shadow-none mb-0">
+									<div class="card-body">
+										<div class="table-responsive">
+											<table class="table">
+												<thead class="table-light">
+													<tr>
+														
+														
+														<th>User Products</th>
+														<th>Product image</th>
+														<th>Amount</th>
+														<th>Status</th>
+														
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														
+														<td>Laptop</td>
+														<td>image</td>
+														<td>$1100.00</td>
+														<td>On The Way</td>
+														
+													</tr>
+													<tr>
+														<td>Mobile</td>
+														<td>image</td>
+														<td>$100.00</td>
+														<td>On The Way</td>
+														
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-6">
+								<div class="product-info-section p-3">
+									<h3 class="mt-3 mt-lg-0 mb-0">Customer Name : Jogn</h3>
+									<div class="product-rating d-flex align-items-center mt-2">
+										
+										<div class="ms-1">
+											<p class="mb-0">Email : jogn@gmail.com</p>
+										</div>
+									</div>
+									<div class="d-flex align-items-center mt-3 gap-2">
+										<h4 class="mb-0">$1200.00</h4>
+									</div>
+									<div class="mt-3">
+										<h6>Shipping Address :</h6>
+										<p class="mb-0">Virgil Abloh’s Off-White is a streetwear-inspired collection that continues to break away from the conventions of mainstream fashion. Made in Italy, these black and brown Odsy-1000 low-top sneakers.</p>
+									</div>
+									<dl class="row mt-3">	
+                                        <dt class="col-sm-3">Quantity</dt>
+                                        <dd class="col-sm-9">3</dd>
+                                        
+                                        <dt class="col-sm-3">Product</dt>
+                                        <dd class="col-sm-9">Laptop</dd>
+
+                                        <dt class="col-sm-3">Status</dt>
+                                        <dd class="col-sm-9">Russia, USA, and Europe</dd>
+										
+									</dl>
+									
+									<!--end row-->
+									
+								</div>
+							</div>
+						</div>
+						<!--end row-->
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
 		<!--End Back To Top Button-->
 	</div>

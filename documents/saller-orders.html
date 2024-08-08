@@ -77,8 +77,8 @@
 											<div class="dropdown-menu dropdown-menu-end">
 												<a href="javascript:;">
 													<div class="cart-header">
-														<p class="cart-header-title mb-0">8 ITEMS</p>
-														<p class="cart-header-clear ms-auto mb-0">VIEW CART</p>
+														<p class="cart-header-title mb-0">USER</p>
+														<p class="cart-header-clear ms-auto mb-0">SELLER</p>
 													</div>
 												</a>
 												<div class="cart-list">
@@ -188,11 +188,21 @@
                                                                 <td>$12000</td>
                                                                 <td>12/12/2022</td>
 																<td>
-																	<div class="badge rounded-pill bg-light w-100">Completed</div>
+
+																	<a href="#" data-bs-toggle="dropdown">On The Way<i class='bx bx-chevron-down'></i></a>
+																		<ul class="dropdown-menu">
+																			<li><a class="dropdown-item" href="#">Ordered</a>
+																			</li>
+																			<li><a class="dropdown-item" href="#">Out For Delivery</a>
+																			</li>
+																			<li><a class="dropdown-item active" href="#">On The Way</a>
+																			</li>
+																			<li><a class="dropdown-item" href="#">Delivered</a>
+																			</li>
+																		</ul>
+																	
 																</td>
 																<td>
-                                                                    
-
 																	<div class="d-flex gap-2">	
                                                                         <a href="javascript:;" class="btn btn-light btn-sm rounded-0" data-bs-toggle="modal"  data-bs-target="#QuickViewProduct">View</a>
                                                                         <a href="javascript:;" class="btn btn-light btn-sm rounded-0">Remove</a>
@@ -216,7 +226,19 @@
                                                                 <td>$120</td>
                                                                 <td>12-02-2024</td>
 																<td>
-																	<div class="badge rounded-pill bg-light w-100">Failed</div>
+
+																	<a href="#" data-bs-toggle="dropdown">Delivered<i class='bx bx-chevron-down'></i></a>
+																		<ul class="dropdown-menu">
+																			<li><a class="dropdown-item" href="#">Ordered</a>
+																			</li>
+																			<li><a class="dropdown-item" href="#">Out For Delivery</a>
+																			</li>
+																			<li><a class="dropdown-item " href="#">On The Way</a>
+																			</li>
+																			<li><a class="dropdown-item active" href="#">Delivered</a>
+																			</li>
+																		</ul>
+																	
 																</td>
 																<td>
 																	<div class="d-flex gap-2">
@@ -376,35 +398,42 @@
 					<div class="modal-body">
 						<button type="button" class="btn-close float-end" data-bs-dismiss="modal"></button>
 						<div class="row g-0">
-							<div class="col-12 col-lg-6">
-								<div class="image-zoom-section">
-									<div class="product-gallery owl-carousel owl-theme border mb-3 p-3" data-slider-id="1">
-										<div class="item">
-											<img src="assets/images/product-gallery/01.png" class="img-fluid" alt="">
+							<div class="col-lg-6">
+								<div class="card shadow-none mb-0">
+									<div class="card-body">
+										<div class="table-responsive">
+											<table class="table">
+												<thead class="table-light">
+													<tr>
+														
+														
+														<th>User Products</th>
+														<th>Product image</th>
+														<th>Amount</th>
+														<th>Status</th>
+														
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														
+														<td>Laptop</td>
+														<td>image</td>
+														<td>$1100.00</td>
+														<td>On The Way</td>
+														
+													</tr>
+													<tr>
+														<td>Mobile</td>
+														<td>image</td>
+														<td>$100.00</td>
+														<td>On The Way</td>
+														
+													</tr>
+													
+												</tbody>
+											</table>
 										</div>
-										<div class="item">
-											<img src="assets/images/product-gallery/02.png" class="img-fluid" alt="">
-										</div>
-										<div class="item">
-											<img src="assets/images/product-gallery/03.png" class="img-fluid" alt="">
-										</div>
-										<div class="item">
-											<img src="assets/images/product-gallery/04.png" class="img-fluid" alt="">
-										</div>
-									</div>
-									<div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-										<button class="owl-thumb-item">
-											<img src="assets/images/product-gallery/01.png" class="" alt="">
-										</button>
-										<button class="owl-thumb-item">
-											<img src="assets/images/product-gallery/02.png" class="" alt="">
-										</button>
-										<button class="owl-thumb-item">
-											<img src="assets/images/product-gallery/03.png" class="" alt="">
-										</button>
-										<button class="owl-thumb-item">
-											<img src="assets/images/product-gallery/04.png" class="" alt="">
-										</button>
 									</div>
 								</div>
 							</div>
